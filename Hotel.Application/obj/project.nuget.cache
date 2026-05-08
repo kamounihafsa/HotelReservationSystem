@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KDEbRdwAdwI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Hotel.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
