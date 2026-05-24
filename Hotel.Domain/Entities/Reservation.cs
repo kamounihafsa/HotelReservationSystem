@@ -12,6 +12,7 @@ namespace Hotel.Domain.Entities
         public DateTime DateArrivee { get; set; }
         public DateTime DateDepart { get; set; }
         public int NombrePersonnes { get; set; }
+        public double Remise { get; set; }
 
         public ReservationStatus Statut { get; set; }
 

@@ -119,6 +119,11 @@ namespace Hotel.API
                 MontantTotal =
         r.Facture != null
             ? r.Facture.MontantTotal
+            : 0,
+
+             Remise =
+        r.Facture != null
+            ? r.Facture.Remise
             : 0
             });
 

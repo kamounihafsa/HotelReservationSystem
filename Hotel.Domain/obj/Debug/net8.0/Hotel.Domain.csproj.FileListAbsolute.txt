@@ -9,3 +9,4 @@ C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.Domain\obj\Debug\net8.0\
 C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.Domain\obj\Debug\net8.0\refint\Hotel.Domain.dll
 C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.Domain\obj\Debug\net8.0\Hotel.Domain.pdb
 C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.Domain\obj\Debug\net8.0\ref\Hotel.Domain.dll
+C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.Domain\obj\Debug\net8.0\Hotel.Domain.sourcelink.json

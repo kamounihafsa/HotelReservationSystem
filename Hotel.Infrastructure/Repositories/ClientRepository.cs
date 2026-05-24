@@ -88,6 +88,7 @@ namespace Hotel.Infrastructure.Repositories
                 .Include(r => r.Facture)
                 .Where(r => r.ClientId == clientId)
                 .Include(r => r.Chambre) // optionnel mais recommandé
+                .OrderByDescending(r => r.DateArrivee)
                 .ToListAsync();
         }
     }

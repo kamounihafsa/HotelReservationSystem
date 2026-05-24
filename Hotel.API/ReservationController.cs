@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Hotel.API
 {
-    [Authorize(Roles = "Receptionniste")]
+    [Authorize(Roles = "Receptionniste,Admin")]
     [ApiController]
     [Route("api/reservations")]
     public class ReservationController : ControllerBase
@@ -95,28 +95,34 @@ namespace Hotel.API
             var reservations = await _repo.GetAllAsync();
 
             return Ok(
-                reservations.Select(r => new
-                {
-                    r.Id,
-                    r.DateArrivee,
-                    r.DateDepart,
-                    r.NombrePersonnes,
-                    Statut = r.Statut.ToString(),
+    reservations.Select(r => new
+    {
+        r.Id,
+        r.DateArrivee,
+        r.DateDepart,
+        r.NombrePersonnes,
+        r.Remise,
 
-                    Client = r.Client.Nom + " " + r.Client.Prenom,
-                    Chambre = r.Chambre.Numero,
+        Statut = r.Statut.ToString(),
 
-                    Facture = r.Facture == null
-                        ? null
-                        : new
-                        {
-                            r.Facture.Id,
-                            r.Facture.Date,
-                            r.Facture.MontantTotal,
-                            r.Facture.Remise
-                        }
-                })
-            );
+        Client = r.Client.Nom + " " + r.Client.Prenom,
+
+        Chambre =
+    "Chambre " + r.Chambre.Numero
+    + " - " +
+    r.Chambre.Type.ToString(),
+
+        Facture = r.Facture == null
+            ? null
+            : new
+            {
+                r.Facture.Id,
+                r.Facture.Date,
+                r.Facture.MontantTotal,
+                r.Facture.Remise
+            }
+    })
+);
         }
     }
 }

@@ -17,3 +17,4 @@ C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.Infrastructure\obj\Debug
 C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.Infrastructure\obj\Debug\net8.0\Hotel.Infrastructure.pdb
 C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.Infrastructure\obj\Debug\net8.0\Hotel.Infrastructure.genruntimeconfig.cache
 C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.Infrastructure\obj\Debug\net8.0\ref\Hotel.Infrastructure.dll
+C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.Infrastructure\obj\Debug\net8.0\Hotel.Infrastructure.sourcelink.json

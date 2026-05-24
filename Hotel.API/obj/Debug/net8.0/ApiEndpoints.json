@@ -107,6 +107,16 @@
   },
   {
     "ContainingType": "Hotel.API.ChambreController",
+    "Method": "GetAll",
+    "RelativePath": "api/Chambre/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hotel.API.ChambreController",
     "Method": "Search",
     "RelativePath": "api/Chambre/search",
     "HttpMethod": "GET",

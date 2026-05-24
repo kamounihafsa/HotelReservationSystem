@@ -13,3 +13,4 @@ C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.Application\obj\Debug\ne
 C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.Application\obj\Debug\net8.0\refint\Hotel.Application.dll
 C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.Application\obj\Debug\net8.0\Hotel.Application.pdb
 C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.Application\obj\Debug\net8.0\ref\Hotel.Application.dll
+C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.Application\obj\Debug\net8.0\Hotel.Application.sourcelink.json

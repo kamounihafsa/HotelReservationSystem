@@ -17,6 +17,7 @@ namespace Hotel.Domain.Interfaces
         
         Task<bool> IsChambreDisponible(long chambreId, DateTime dateArrivee, DateTime dateDepart);
         Task<IEnumerable<Reservation>> GetByClientId(long clientId);
+        Task<Chambre> GetChambreById(long id);
 
     }
 }

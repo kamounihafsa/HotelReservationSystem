@@ -67,6 +67,18 @@
         }
       }
     },
+    "/api/Chambre/all": {
+      "get": {
+        "tags": [
+          "Chambre"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Chambre/{id}": {
       "put": {
         "tags": [
@@ -865,6 +877,10 @@
           "nombrePersonnes": {
             "type": "integer",
             "format": "int32"
+          },
+          "remise": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false

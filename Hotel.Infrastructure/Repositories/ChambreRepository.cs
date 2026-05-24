@@ -38,7 +38,6 @@ namespace Hotel.Infrastructure.Repositories
         public async Task<IEnumerable<Chambre>> GetAllAsync()
         {
             return await _context.Chambres
-                .Where(c => c.Active)
                 .Include(c => c.Equipements)
                 .ToListAsync();
         }

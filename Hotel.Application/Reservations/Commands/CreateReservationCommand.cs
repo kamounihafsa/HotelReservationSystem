@@ -11,5 +11,6 @@ namespace Hotel.Application.Reservations.Commands
         public DateTime DateArrivee { get; set; }
         public DateTime DateDepart { get; set; }
         public int NombrePersonnes { get; set; }
+        public double Remise { get; set; }
     }
 }

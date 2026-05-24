@@ -8,7 +8,7 @@ namespace Hotel.API
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize(Roles = "Receptionniste")]
+    [Authorize]
     public class ChambreController : ControllerBase
     {
         private readonly IChambreRepository _repo;
@@ -19,6 +19,7 @@ namespace Hotel.API
         }
 
         // ➕ Ajouter chambre
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateChambreCommand command)
         {
@@ -36,8 +37,16 @@ namespace Hotel.API
 
             return Ok(chambre);
         }
-
+        // get chambres 
+        [Authorize(Roles = "Admin,Receptionniste")]
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAll()
+        {
+            var chambres = await _repo.GetAllAsync();
+            return Ok(chambres);
+        }
         // ✏️ Modifier chambre
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(long id, [FromBody] UpdateChambreCommand command)
         {
@@ -58,6 +67,7 @@ namespace Hotel.API
         }
 
         // 🔴 Désactiver chambre
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Disable(long id)
         {
@@ -73,6 +83,7 @@ namespace Hotel.API
             return Ok("Chambre désactivée");
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost("{id}/equipements")]
         public async Task<IActionResult> AddEquipement(long id, string nom)
         {
@@ -98,6 +109,7 @@ namespace Hotel.API
             return Ok("Equipement ajouté");
         }
         // 🔍 Recherche chambre
+        [Authorize(Roles = "Admin,Receptionniste")]
         [HttpGet("search")]
         public async Task<IActionResult> Search([FromQuery] string term)
         {
@@ -109,6 +121,7 @@ namespace Hotel.API
             return Ok(result);
         }
         // 🟢 Réactiver chambre
+        [Authorize(Roles = "Admin")]
         [HttpPost("{id}/reactivate")]
         public async Task<IActionResult> Reactivate(long id)
         {

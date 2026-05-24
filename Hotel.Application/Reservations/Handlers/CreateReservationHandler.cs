@@ -19,6 +19,26 @@ namespace Hotel.Application.Reservations.Handlers
 
         public async Task<long> Handle(CreateReservationCommand command)
         {
+
+            if (command.DateArrivee >= command.DateDepart)
+            {
+                throw new Exception(
+                    "Date invalide : la date d'arrivée doit être inférieure à la date de départ. Veuillez réécrire les dates."
+                );
+            }
+            var chambre = await _reservationRepo.GetChambreById(command.ChambreId);
+
+            if (chambre == null)
+                throw new Exception("Chambre introuvable");
+
+            // 🔥 vérifier capacité
+            if (command.NombrePersonnes > chambre.Capacite)
+            {
+                throw new Exception(
+                    $"Cette chambre accepte seulement {chambre.Capacite} personnes"
+                );
+            }
+
             var disponible = await _reservationRepo.IsChambreDisponible(
                 command.ChambreId,
                 command.DateArrivee,
@@ -34,6 +54,7 @@ namespace Hotel.Application.Reservations.Handlers
                 DateArrivee = command.DateArrivee,
                 DateDepart = command.DateDepart,
                 NombrePersonnes = command.NombrePersonnes,
+                Remise = command.Remise,
                 Statut = ReservationStatus.Confirmée
             };
 

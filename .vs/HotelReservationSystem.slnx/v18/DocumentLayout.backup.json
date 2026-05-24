@@ -3,36 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|solutionrelative:hotel.infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{853856A4-47F2-2037-078A-910F158813FC}|Hotel.API\\Hotel.API.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.api\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853856A4-47F2-2037-078A-910F158813FC}|Hotel.API\\Hotel.API.csproj|solutionrelative:hotel.api\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.infrastructure\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|solutionrelative:hotel.infrastructure\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.application\\reservations\\handlers\\checkouthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|solutionrelative:hotel.application\\reservations\\handlers\\checkouthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{853856A4-47F2-2037-078A-910F158813FC}|Hotel.API\\Hotel.API.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.api\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{853856A4-47F2-2037-078A-910F158813FC}|Hotel.API\\Hotel.API.csproj|solutionrelative:hotel.api\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{853856A4-47F2-2037-078A-910F158813FC}|Hotel.API\\Hotel.API.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853856A4-47F2-2037-078A-910F158813FC}|Hotel.API\\Hotel.API.csproj|solutionrelative:hotel.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853856A4-47F2-2037-078A-910F158813FC}|Hotel.API\\Hotel.API.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.api\\chambrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853856A4-47F2-2037-078A-910F158813FC}|Hotel.API\\Hotel.API.csproj|solutionrelative:hotel.api\\chambrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.application\\reservations\\handlers\\createreservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|solutionrelative:hotel.application\\reservations\\handlers\\createreservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.infrastructure\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|solutionrelative:hotel.infrastructure\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|solutionrelative:hotel.infrastructure\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.application\\dtos\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|solutionrelative:hotel.application\\dtos\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{853856A4-47F2-2037-078A-910F158813FC}|Hotel.API\\Hotel.API.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.api\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{853856A4-47F2-2037-078A-910F158813FC}|Hotel.API\\Hotel.API.csproj|solutionrelative:hotel.api\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.domain\\entities\\facture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|solutionrelative:hotel.domain\\entities\\facture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.domain\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|solutionrelative:hotel.domain\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{853856A4-47F2-2037-078A-910F158813FC}|Hotel.API\\Hotel.API.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{853856A4-47F2-2037-078A-910F158813FC}|Hotel.API\\Hotel.API.csproj|solutionrelative:hotel.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.infrastructure\\repositories\\chambrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|solutionrelative:hotel.infrastructure\\repositories\\chambrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.application\\reservations\\commands\\createreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|solutionrelative:hotel.application\\reservations\\commands\\createreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.domain\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|solutionrelative:hotel.domain\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.domain\\enums\\reservationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|solutionrelative:hotel.domain\\enums\\reservationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.infrastructure\\repositories\\facturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|solutionrelative:hotel.infrastructure\\repositories\\facturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.infrastructure\\repositories\\tarifrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|solutionrelative:hotel.infrastructure\\repositories\\tarifrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.domain\\interfaces\\ifacturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|solutionrelative:hotel.domain\\interfaces\\ifacturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.domain\\interfaces\\itarifrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|solutionrelative:hotel.domain\\interfaces\\itarifrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.domain\\entities\\tarif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|solutionrelative:hotel.domain\\entities\\tarif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.domain\\entities\\facture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|solutionrelative:hotel.domain\\entities\\facture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.domain\\hotel.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|solutionrelative:hotel.domain\\hotel.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{853856A4-47F2-2037-078A-910F158813FC}|Hotel.API\\Hotel.API.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.api\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,20 +131,8 @@
       "RelativeMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|solutionrelative:hotel.domain\\interfaces\\ichambrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{853856A4-47F2-2037-078A-910F158813FC}|Hotel.API\\Hotel.API.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.api\\chambrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{853856A4-47F2-2037-078A-910F158813FC}|Hotel.API\\Hotel.API.csproj|solutionrelative:hotel.api\\chambrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.domain\\interfaces\\ifacturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|solutionrelative:hotel.domain\\interfaces\\ifacturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|solutionrelative:hotel.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.infrastructure\\repositories\\chambrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|solutionrelative:hotel.infrastructure\\repositories\\chambrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.domain\\entities\\equipement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,36 +155,12 @@
       "RelativeMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|solutionrelative:hotel.domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.application\\reservations\\handlers\\checkouthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|solutionrelative:hotel.application\\reservations\\handlers\\checkouthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.infrastructure\\repositories\\facturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|solutionrelative:hotel.infrastructure\\repositories\\facturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.domain\\entities\\tarif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|solutionrelative:hotel.domain\\entities\\tarif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.application\\reservations\\handlers\\checkinhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|solutionrelative:hotel.application\\reservations\\handlers\\checkinhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.application\\reservations\\handlers\\cancelreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|solutionrelative:hotel.application\\reservations\\handlers\\cancelreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.infrastructure\\repositories\\tarifrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|solutionrelative:hotel.infrastructure\\repositories\\tarifrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.domain\\enums\\reservationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|solutionrelative:hotel.domain\\enums\\reservationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.application\\reservations\\commands\\createreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|solutionrelative:hotel.application\\reservations\\commands\\createreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.application\\createchambre\\updatechambrecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -169,14 +185,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.application\\hotel.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|solutionrelative:hotel.application\\hotel.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.domain\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|solutionrelative:hotel.domain\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.domain\\interfaces\\itarifrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|solutionrelative:hotel.domain\\interfaces\\itarifrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.application\\createclient\\getclientreservationshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -219,10 +227,6 @@
       "RelativeMoniker": "D:0:0:{853856A4-47F2-2037-078A-910F158813FC}|Hotel.API\\Hotel.API.csproj|solutionrelative:hotel.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.domain\\hotel.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F5C67AD0-7B3C-CA4C-1DE5-0ECE442513B6}|Hotel.Domain\\Hotel.Domain.csproj|solutionrelative:hotel.domain\\hotel.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.infrastructure\\migrations\\20260428112541_adduserfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|solutionrelative:hotel.infrastructure\\migrations\\20260428112541_adduserfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -253,10 +257,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.application\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|solutionrelative:hotel.application\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.application\\reservations\\handlers\\createreservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBC9B5C8-EB6D-3D4F-FB1D-0F6CAE941FA4}|Hotel.Application\\Hotel.Application.csproj|solutionrelative:hotel.application\\reservations\\handlers\\createreservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{853856A4-47F2-2037-078A-910F158813FC}|Hotel.API\\Hotel.API.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.api\\hotel.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -293,6 +293,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.infrastructure\\migrations\\20260507124715_fixfacturerelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|solutionrelative:hotel.infrastructure\\migrations\\20260507124715_fixfacturerelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\hotelreservationsystem\\hotel.infrastructure\\migrations\\20260510151615_addremisetoreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E1B9F8-A1A3-479D-D769-05ABF5E1F127}|Hotel.Infrastructure\\Hotel.Infrastructure.csproj|solutionrelative:hotel.infrastructure\\migrations\\20260510151615_addremisetoreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -307,14 +311,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ReservationController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\ReservationController.cs",
-              "RelativeDocumentMoniker": "Hotel.API\\ReservationController.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\ReservationController.cs",
-              "RelativeToolTip": "Hotel.API\\ReservationController.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAQwGYAAAAmAAAAAAAAAA==",
+              "Title": "ChambreController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\ChambreController.cs",
+              "RelativeDocumentMoniker": "Hotel.API\\ChambreController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\ChambreController.cs",
+              "RelativeToolTip": "Hotel.API\\ChambreController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAHkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T23:11:34.791Z",
+              "WhenOpened": "2026-04-30T09:58:02.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Hotel.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Hotel.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAF8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T10:51:59.692Z",
               "EditorCaption": ""
             },
             {
@@ -325,235 +342,184 @@
               "RelativeDocumentMoniker": "Hotel.API\\ClientController.cs",
               "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\ClientController.cs",
               "RelativeToolTip": "Hotel.API\\ClientController.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAAAHYAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAlwHwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T10:03:37.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReservationDto.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\DTOs\\ReservationDto.cs",
-              "RelativeDocumentMoniker": "Hotel.Application\\DTOs\\ReservationDto.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\DTOs\\ReservationDto.cs",
-              "RelativeToolTip": "Hotel.Application\\DTOs\\ReservationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T12:22:28.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ClientRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\ClientRepository.cs",
-              "RelativeDocumentMoniker": "Hotel.Infrastructure\\Repositories\\ClientRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\ClientRepository.cs",
-              "RelativeToolTip": "Hotel.Infrastructure\\Repositories\\ClientRepository.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAywE8AAAAJAAAAAAAAAA==",
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\ReservationController.cs",
+              "RelativeDocumentMoniker": "Hotel.API\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\ReservationController.cs",
+              "RelativeToolTip": "Hotel.API\\ReservationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T10:07:19.296Z",
+              "WhenOpened": "2026-04-24T23:11:34.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ReservationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\ReservationRepository.cs",
-              "RelativeDocumentMoniker": "Hotel.Infrastructure\\Repositories\\ReservationRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\ReservationRepository.cs",
-              "RelativeToolTip": "Hotel.Infrastructure\\Repositories\\ReservationRepository.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAA9wFQAAAAAAAAAAAAAAA==",
+              "Title": "CheckOutHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Reservations\\Handlers\\CheckOutHandler.cs",
+              "RelativeDocumentMoniker": "Hotel.Application\\Reservations\\Handlers\\CheckOutHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Reservations\\Handlers\\CheckOutHandler.cs",
+              "RelativeToolTip": "Hotel.Application\\Reservations\\Handlers\\CheckOutHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T22:28:27.151Z",
+              "WhenOpened": "2026-04-26T10:24:04.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Facture.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Entities\\Facture.cs",
-              "RelativeDocumentMoniker": "Hotel.Domain\\Entities\\Facture.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Entities\\Facture.cs",
-              "RelativeToolTip": "Hotel.Domain\\Entities\\Facture.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Title": "CreateReservationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Reservations\\Handlers\\CreateReservationHandler.cs",
+              "RelativeDocumentMoniker": "Hotel.Application\\Reservations\\Handlers\\CreateReservationHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Reservations\\Handlers\\CreateReservationHandler.cs",
+              "RelativeToolTip": "Hotel.Application\\Reservations\\Handlers\\CreateReservationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T20:15:39.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T22:14:05.57Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "Hotel.Infrastructure\\Repositories\\ReservationRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\ReservationRepository.cs",
+              "RelativeToolTip": "Hotel.Infrastructure\\Repositories\\ReservationRepository.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAADwv0oAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T22:28:27.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReservationDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\DTOs\\ReservationDto.cs",
+              "RelativeDocumentMoniker": "Hotel.Application\\DTOs\\ReservationDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\DTOs\\ReservationDto.cs",
+              "RelativeToolTip": "Hotel.Application\\DTOs\\ReservationDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T12:22:28.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "Hotel.Infrastructure\\Repositories\\ClientRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\ClientRepository.cs",
+              "RelativeToolTip": "Hotel.Infrastructure\\Repositories\\ClientRepository.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAADwv1oAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T10:07:19.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Reservation.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Entities\\Reservation.cs",
               "RelativeDocumentMoniker": "Hotel.Domain\\Entities\\Reservation.cs",
               "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Entities\\Reservation.cs",
               "RelativeToolTip": "Hotel.Domain\\Entities\\Reservation.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA0AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T20:15:17.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Hotel.API\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Hotel.API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T10:51:59.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\AuthController.cs",
-              "RelativeDocumentMoniker": "Hotel.API\\AuthController.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\AuthController.cs",
-              "RelativeToolTip": "Hotel.API\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T09:03:57.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginHandler.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Auth\\LoginHandler.cs",
-              "RelativeDocumentMoniker": "Hotel.Application\\Auth\\LoginHandler.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Auth\\LoginHandler.cs",
-              "RelativeToolTip": "Hotel.Application\\Auth\\LoginHandler.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T08:33:10.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T20:15:17.821Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ChangePasswordCommand.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Auth\\ChangePasswordCommand.cs",
-              "RelativeDocumentMoniker": "Hotel.Application\\Auth\\ChangePasswordCommand.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Auth\\ChangePasswordCommand.cs",
-              "RelativeToolTip": "Hotel.Application\\Auth\\ChangePasswordCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "ChambreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\ChambreRepository.cs",
+              "RelativeDocumentMoniker": "Hotel.Infrastructure\\Repositories\\ChambreRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\ChambreRepository.cs",
+              "RelativeToolTip": "Hotel.Infrastructure\\Repositories\\ChambreRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAywCoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T10:32:43.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T10:13:51.44Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "ChangePasswordHandler.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Auth\\ChangePasswordHandler.cs",
-              "RelativeDocumentMoniker": "Hotel.Application\\Auth\\ChangePasswordHandler.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Auth\\ChangePasswordHandler.cs",
-              "RelativeToolTip": "Hotel.Application\\Auth\\ChangePasswordHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Title": "CreateReservationCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Reservations\\Commands\\CreateReservationCommand.cs",
+              "RelativeDocumentMoniker": "Hotel.Application\\Reservations\\Commands\\CreateReservationCommand.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Reservations\\Commands\\CreateReservationCommand.cs",
+              "RelativeToolTip": "Hotel.Application\\Reservations\\Commands\\CreateReservationCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T10:33:17.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T23:01:20.237Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "CreateUserHandler.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateUser\\CreateUserHandler.cs",
-              "RelativeDocumentMoniker": "Hotel.Application\\CreateUser\\CreateUserHandler.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateUser\\CreateUserHandler.cs",
-              "RelativeToolTip": "Hotel.Application\\CreateUser\\CreateUserHandler.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAiwCQAAAANAAAAAAAAAA==",
+              "Title": "IReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\IReservationRepository.cs",
+              "RelativeDocumentMoniker": "Hotel.Domain\\Interfaces\\IReservationRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\IReservationRepository.cs",
+              "RelativeToolTip": "Hotel.Domain\\Interfaces\\IReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T10:15:20.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T21:47:35.641Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IPasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Interfaces\\IPasswordHasher.cs",
-              "RelativeDocumentMoniker": "Hotel.Application\\Interfaces\\IPasswordHasher.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Interfaces\\IPasswordHasher.cs",
-              "RelativeToolTip": "Hotel.Application\\Interfaces\\IPasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 73,
+              "Title": "20260510151615_AddRemiseToReservation.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Migrations\\20260510151615_AddRemiseToReservation.cs",
+              "RelativeDocumentMoniker": "Hotel.Infrastructure\\Migrations\\20260510151615_AddRemiseToReservation.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Migrations\\20260510151615_AddRemiseToReservation.cs",
+              "RelativeToolTip": "Hotel.Infrastructure\\Migrations\\20260510151615_AddRemiseToReservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T10:09:26.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-10T15:16:16.277Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Hotel.Infrastructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Hotel.Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAuwC0AAAAJAAAAAAAAAA==",
+              "Title": "FactureRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\FactureRepository.cs",
+              "RelativeDocumentMoniker": "Hotel.Infrastructure\\Repositories\\FactureRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\FactureRepository.cs",
+              "RelativeToolTip": "Hotel.Infrastructure\\Repositories\\FactureRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T08:43:04.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T10:15:55.928Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Hotel.Domain\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "Hotel.Domain\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Title": "TarifRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\TarifRepository.cs",
+              "RelativeDocumentMoniker": "Hotel.Infrastructure\\Repositories\\TarifRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\TarifRepository.cs",
+              "RelativeToolTip": "Hotel.Infrastructure\\Repositories\\TarifRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBQAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T08:42:12.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T09:21:52.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReservationStatus.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Enums\\ReservationStatus.cs",
+              "RelativeDocumentMoniker": "Hotel.Domain\\Enums\\ReservationStatus.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Enums\\ReservationStatus.cs",
+              "RelativeToolTip": "Hotel.Domain\\Enums\\ReservationStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T20:10:58.374Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Utilisateur.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Entities\\Utilisateur.cs",
-              "RelativeDocumentMoniker": "Hotel.Domain\\Entities\\Utilisateur.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Entities\\Utilisateur.cs",
-              "RelativeToolTip": "Hotel.Domain\\Entities\\Utilisateur.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T20:16:22.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CreateUserCommand.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateUser\\CreateUserCommand.cs",
-              "RelativeDocumentMoniker": "Hotel.Application\\CreateUser\\CreateUserCommand.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateUser\\CreateUserCommand.cs",
-              "RelativeToolTip": "Hotel.Application\\CreateUser\\CreateUserCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T10:14:42.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IChambreRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\IChambreRepository.cs",
-              "RelativeDocumentMoniker": "Hotel.Domain\\Interfaces\\IChambreRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\IChambreRepository.cs",
-              "RelativeToolTip": "Hotel.Domain\\Interfaces\\IChambreRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T21:48:39.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "IFactureRepository.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\IFactureRepository.cs",
               "RelativeDocumentMoniker": "Hotel.Domain\\Interfaces\\IFactureRepository.cs",
@@ -565,19 +531,187 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ChambreController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\ChambreController.cs",
-              "RelativeDocumentMoniker": "Hotel.API\\ChambreController.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\ChambreController.cs",
-              "RelativeToolTip": "Hotel.API\\ChambreController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAswGoAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "ITarifRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\ITarifRepository.cs",
+              "RelativeDocumentMoniker": "Hotel.Domain\\Interfaces\\ITarifRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\ITarifRepository.cs",
+              "RelativeToolTip": "Hotel.Domain\\Interfaces\\ITarifRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T09:58:02.002Z"
+              "WhenOpened": "2026-04-27T09:19:59.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Tarif.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Entities\\Tarif.cs",
+              "RelativeDocumentMoniker": "Hotel.Domain\\Entities\\Tarif.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Entities\\Tarif.cs",
+              "RelativeToolTip": "Hotel.Domain\\Entities\\Tarif.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T20:16:05.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Facture.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Entities\\Facture.cs",
+              "RelativeDocumentMoniker": "Hotel.Domain\\Entities\\Facture.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Entities\\Facture.cs",
+              "RelativeToolTip": "Hotel.Domain\\Entities\\Facture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T20:15:39.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Hotel.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Hotel.Domain.csproj",
+              "RelativeDocumentMoniker": "Hotel.Domain\\Hotel.Domain.csproj",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Hotel.Domain.csproj",
+              "RelativeToolTip": "Hotel.Domain\\Hotel.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-24T20:04:45.458Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\AuthController.cs",
+              "RelativeDocumentMoniker": "Hotel.API\\AuthController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\AuthController.cs",
+              "RelativeToolTip": "Hotel.API\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T09:03:57.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Auth\\LoginHandler.cs",
+              "RelativeDocumentMoniker": "Hotel.Application\\Auth\\LoginHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Auth\\LoginHandler.cs",
+              "RelativeToolTip": "Hotel.Application\\Auth\\LoginHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T08:33:10.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ChangePasswordCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Auth\\ChangePasswordCommand.cs",
+              "RelativeDocumentMoniker": "Hotel.Application\\Auth\\ChangePasswordCommand.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Auth\\ChangePasswordCommand.cs",
+              "RelativeToolTip": "Hotel.Application\\Auth\\ChangePasswordCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T10:32:43.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ChangePasswordHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Auth\\ChangePasswordHandler.cs",
+              "RelativeDocumentMoniker": "Hotel.Application\\Auth\\ChangePasswordHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Auth\\ChangePasswordHandler.cs",
+              "RelativeToolTip": "Hotel.Application\\Auth\\ChangePasswordHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T10:33:17.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CreateUserHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateUser\\CreateUserHandler.cs",
+              "RelativeDocumentMoniker": "Hotel.Application\\CreateUser\\CreateUserHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateUser\\CreateUserHandler.cs",
+              "RelativeToolTip": "Hotel.Application\\CreateUser\\CreateUserHandler.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T10:15:20.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Interfaces\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "Hotel.Application\\Interfaces\\IPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Interfaces\\IPasswordHasher.cs",
+              "RelativeToolTip": "Hotel.Application\\Interfaces\\IPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T10:09:26.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Hotel.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Hotel.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T08:43:04.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Hotel.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Hotel.Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T08:42:12.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Entities\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "Hotel.Domain\\Entities\\Utilisateur.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Entities\\Utilisateur.cs",
+              "RelativeToolTip": "Hotel.Domain\\Entities\\Utilisateur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T20:16:22.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateUser\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "Hotel.Application\\CreateUser\\CreateUserCommand.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateUser\\CreateUserCommand.cs",
+              "RelativeToolTip": "Hotel.Application\\CreateUser\\CreateUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T10:14:42.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IChambreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\IChambreRepository.cs",
+              "RelativeDocumentMoniker": "Hotel.Domain\\Interfaces\\IChambreRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\IChambreRepository.cs",
+              "RelativeToolTip": "Hotel.Domain\\Interfaces\\IChambreRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T21:48:39.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Hotel.Infrastructure\\Data\\AppDbContext.cs",
@@ -589,19 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ChambreRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\ChambreRepository.cs",
-              "RelativeDocumentMoniker": "Hotel.Infrastructure\\Repositories\\ChambreRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\ChambreRepository.cs",
-              "RelativeToolTip": "Hotel.Infrastructure\\Repositories\\ChambreRepository.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAUwEAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T10:13:51.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 33,
               "Title": "Equipement.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Entities\\Equipement.cs",
               "RelativeDocumentMoniker": "Hotel.Domain\\Entities\\Equipement.cs",
@@ -613,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "Chambre.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Entities\\Chambre.cs",
               "RelativeDocumentMoniker": "Hotel.Domain\\Entities\\Chambre.cs",
@@ -625,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 35,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\Program.cs",
               "RelativeDocumentMoniker": "Hotel.API\\Program.cs",
@@ -637,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 36,
               "Title": "IClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\IClientRepository.cs",
               "RelativeDocumentMoniker": "Hotel.Domain\\Interfaces\\IClientRepository.cs",
@@ -649,7 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 37,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Entities\\Client.cs",
               "RelativeDocumentMoniker": "Hotel.Domain\\Entities\\Client.cs",
@@ -661,43 +783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "CheckOutHandler.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Reservations\\Handlers\\CheckOutHandler.cs",
-              "RelativeDocumentMoniker": "Hotel.Application\\Reservations\\Handlers\\CheckOutHandler.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Reservations\\Handlers\\CheckOutHandler.cs",
-              "RelativeToolTip": "Hotel.Application\\Reservations\\Handlers\\CheckOutHandler.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAywDoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T10:24:04.399Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "FactureRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\FactureRepository.cs",
-              "RelativeDocumentMoniker": "Hotel.Infrastructure\\Repositories\\FactureRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\FactureRepository.cs",
-              "RelativeToolTip": "Hotel.Infrastructure\\Repositories\\FactureRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAkwBcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T10:15:55.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Tarif.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Entities\\Tarif.cs",
-              "RelativeDocumentMoniker": "Hotel.Domain\\Entities\\Tarif.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Entities\\Tarif.cs",
-              "RelativeToolTip": "Hotel.Domain\\Entities\\Tarif.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T20:16:05.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 38,
               "Title": "CheckInHandler.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Reservations\\Handlers\\CheckInHandler.cs",
               "RelativeDocumentMoniker": "Hotel.Application\\Reservations\\Handlers\\CheckInHandler.cs",
@@ -709,7 +795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 39,
               "Title": "CancelReservation.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Reservations\\Handlers\\CancelReservation.cs",
               "RelativeDocumentMoniker": "Hotel.Application\\Reservations\\Handlers\\CancelReservation.cs",
@@ -733,43 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "TarifRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\TarifRepository.cs",
-              "RelativeDocumentMoniker": "Hotel.Infrastructure\\Repositories\\TarifRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Repositories\\TarifRepository.cs",
-              "RelativeToolTip": "Hotel.Infrastructure\\Repositories\\TarifRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T09:21:52.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ReservationStatus.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Enums\\ReservationStatus.cs",
-              "RelativeDocumentMoniker": "Hotel.Domain\\Enums\\ReservationStatus.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Enums\\ReservationStatus.cs",
-              "RelativeToolTip": "Hotel.Domain\\Enums\\ReservationStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T20:10:58.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "CreateReservationCommand.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Reservations\\Commands\\CreateReservationCommand.cs",
-              "RelativeDocumentMoniker": "Hotel.Application\\Reservations\\Commands\\CreateReservationCommand.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Reservations\\Commands\\CreateReservationCommand.cs",
-              "RelativeToolTip": "Hotel.Application\\Reservations\\Commands\\CreateReservationCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T23:01:20.237Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "UpdateChambreCommand.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateChambre\\UpdateChambreCommand.cs",
               "RelativeDocumentMoniker": "Hotel.Application\\CreateChambre\\UpdateChambreCommand.cs",
@@ -781,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "CreateChambreCommand.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateChambre\\CreateChambreCommand.cs",
               "RelativeDocumentMoniker": "Hotel.Application\\CreateChambre\\CreateChambreCommand.cs",
@@ -793,7 +843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "TypeChambre.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Enums\\TypeChambre.cs",
               "RelativeDocumentMoniker": "Hotel.Domain\\Enums\\TypeChambre.cs",
@@ -805,7 +855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "Hotel.API.csproj",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\Hotel.API.csproj",
               "RelativeDocumentMoniker": "Hotel.API\\Hotel.API.csproj",
@@ -817,7 +867,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "Hotel.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Hotel.Infrastructure.csproj",
               "RelativeDocumentMoniker": "Hotel.Infrastructure\\Hotel.Infrastructure.csproj",
@@ -829,7 +879,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "Hotel.Application.csproj",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Hotel.Application.csproj",
               "RelativeDocumentMoniker": "Hotel.Application\\Hotel.Application.csproj",
@@ -841,31 +891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "IReservationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\IReservationRepository.cs",
-              "RelativeDocumentMoniker": "Hotel.Domain\\Interfaces\\IReservationRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\IReservationRepository.cs",
-              "RelativeToolTip": "Hotel.Domain\\Interfaces\\IReservationRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T21:47:35.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ITarifRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\ITarifRepository.cs",
-              "RelativeDocumentMoniker": "Hotel.Domain\\Interfaces\\ITarifRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Interfaces\\ITarifRepository.cs",
-              "RelativeToolTip": "Hotel.Domain\\Interfaces\\ITarifRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T09:19:59.32Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "GetClientReservationsHandler.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateClient\\GetClientReservationsHandler.cs",
               "RelativeDocumentMoniker": "Hotel.Application\\CreateClient\\GetClientReservationsHandler.cs",
@@ -877,7 +903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "ClientLoginHandler.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateClient\\ClientLoginHandler.cs",
               "RelativeDocumentMoniker": "Hotel.Application\\CreateClient\\ClientLoginHandler.cs",
@@ -889,7 +915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "ClientLoginCommand.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateClient\\ClientLoginCommand.cs",
               "RelativeDocumentMoniker": "Hotel.Application\\CreateClient\\ClientLoginCommand.cs",
@@ -901,7 +927,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "DisableClientHandler.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateClient\\DisableClientHandler.cs",
               "RelativeDocumentMoniker": "Hotel.Application\\CreateClient\\DisableClientHandler.cs",
@@ -913,7 +939,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "UpdateClientHandler.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateClient\\UpdateClientHandler.cs",
               "RelativeDocumentMoniker": "Hotel.Application\\CreateClient\\UpdateClientHandler.cs",
@@ -925,7 +951,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "UpdateClientCommand.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateClient\\UpdateClientCommand.cs",
               "RelativeDocumentMoniker": "Hotel.Application\\CreateClient\\UpdateClientCommand.cs",
@@ -937,7 +963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "CreateClientHandler.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateClient\\CreateClientHandler.cs",
               "RelativeDocumentMoniker": "Hotel.Application\\CreateClient\\CreateClientHandler.cs",
@@ -949,7 +975,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "CreateClientCommand.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\CreateClient\\CreateClientCommand.cs",
               "RelativeDocumentMoniker": "Hotel.Application\\CreateClient\\CreateClientCommand.cs",
@@ -961,7 +987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "Hotel.Infrastructure\\Services\\JwtService.cs",
@@ -973,7 +999,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\appsettings.json",
               "RelativeDocumentMoniker": "Hotel.API\\appsettings.json",
@@ -985,19 +1011,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "Hotel.Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Hotel.Domain.csproj",
-              "RelativeDocumentMoniker": "Hotel.Domain\\Hotel.Domain.csproj",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Domain\\Hotel.Domain.csproj",
-              "RelativeToolTip": "Hotel.Domain\\Hotel.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-24T20:04:45.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "20260428112541_AddUserFields.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Migrations\\20260428112541_AddUserFields.cs",
               "RelativeDocumentMoniker": "Hotel.Infrastructure\\Migrations\\20260428112541_AddUserFields.cs",
@@ -1021,7 +1035,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Infrastructure\\Services\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "Hotel.Infrastructure\\Services\\PasswordHasher.cs",
@@ -1033,7 +1047,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "LoginCommand.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Auth\\LoginCommand.cs",
               "RelativeDocumentMoniker": "Hotel.Application\\Auth\\LoginCommand.cs",
@@ -1057,7 +1071,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "CreateReservationValidator.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Validators\\CreateReservationValidator.cs",
               "RelativeDocumentMoniker": "Hotel.Application\\Validators\\CreateReservationValidator.cs",
@@ -1069,7 +1083,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Class1.cs",
               "RelativeDocumentMoniker": "Hotel.Application\\Class1.cs",
@@ -1081,7 +1095,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "Hotel.API\\WeatherForecast.cs",
@@ -1093,7 +1107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.API\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Hotel.API\\Controllers\\WeatherForecastController.cs",
@@ -1105,7 +1119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "IJwtService.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Interfaces\\IJwtService.cs",
               "RelativeDocumentMoniker": "Hotel.Application\\Interfaces\\IJwtService.cs",
@@ -1114,18 +1128,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T08:48:33.826Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "CreateReservationHandler.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Reservations\\Handlers\\CreateReservationHandler.cs",
-              "RelativeDocumentMoniker": "Hotel.Application\\Reservations\\Handlers\\CreateReservationHandler.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\HotelReservationSystem\\Hotel.Application\\Reservations\\Handlers\\CreateReservationHandler.cs",
-              "RelativeToolTip": "Hotel.Application\\Reservations\\Handlers\\CreateReservationHandler.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T22:14:05.57Z"
             },
             {
               "$type": "Document",

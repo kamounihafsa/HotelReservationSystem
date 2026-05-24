@@ -148,3 +148,4 @@ C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.API\obj\Debug\net8.0\ref
 C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.API\obj\Debug\net8.0\Hotel.API.pdb
 C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.API\obj\Debug\net8.0\Hotel.API.genruntimeconfig.cache
 C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.API\obj\Debug\net8.0\ref\Hotel.API.dll
+C:\Users\DELL\source\repos\HotelReservationSystem\Hotel.API\obj\Debug\net8.0\Hotel.API.sourcelink.json

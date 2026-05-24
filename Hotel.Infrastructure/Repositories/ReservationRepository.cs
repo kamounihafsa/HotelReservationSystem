@@ -79,6 +79,12 @@ namespace Hotel.Infrastructure.Repositories
                 .Include(r => r.Facture)
                 .ToListAsync();
         }
+
+        public async Task<Chambre> GetChambreById(long id)
+        {
+            return await _context.Chambres
+                .FirstOrDefaultAsync(c => c.Id == id);
+        }
     }
 }
 
