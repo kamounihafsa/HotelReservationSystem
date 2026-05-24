@@ -52,28 +52,76 @@ export default function ClientForm({ selectedClient, onFinish }) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white p-4 shadow rounded">
 
-      <h3 className="font-bold mb-3">
-        {form.id ? "Modifier Client" : "Ajouter Client"}
-      </h3>
+<form
+  onSubmit={handleSubmit}
+  className="luxury-card p-8"
+>
 
-      <div className="grid grid-cols-2 gap-2">
+  <h2 className="text-3xl gold-text mb-8">
 
-        <input name="nom" placeholder="Nom" value={form.nom} onChange={handleChange} className="border p-2" />
-        <input name="prenom" placeholder="Prénom" value={form.prenom} onChange={handleChange} className="border p-2" />
+    {form.id
+      ? "Modifier Client"
+      : "Ajouter Client"}
 
-        <input name="telephone" placeholder="Téléphone" value={form.telephone} onChange={handleChange} className="border p-2" />
-        <input name="email" placeholder="Email" value={form.email} onChange={handleChange} className="border p-2" />
+  </h2>
 
-        <input name="adresse" placeholder="Adresse" value={form.adresse} onChange={handleChange} className="border p-2" />
-<input name="cin" placeholder="CIN" value={form.cin} onChange={handleChange} className="border p-2" />
-      </div>
+  <div className="grid grid-cols-2 gap-5">
 
-      <button className="bg-green-500 text-white px-4 py-2 mt-3">
-        Save
-      </button>
+    <input
+      name="nom"
+      placeholder="Nom"
+      value={form.nom}
+      onChange={handleChange}
+      className="luxury-input"
+    />
 
-    </form>
-  );
+    <input
+      name="prenom"
+      placeholder="Prénom"
+      value={form.prenom}
+      onChange={handleChange}
+      className="luxury-input"
+    />
+
+    <input
+      name="telephone"
+      placeholder="Téléphone"
+      value={form.telephone}
+      onChange={handleChange}
+      className="luxury-input"
+    />
+
+    <input
+      name="email"
+      placeholder="Email"
+      value={form.email}
+      onChange={handleChange}
+      className="luxury-input"
+    />
+
+    <input
+      name="adresse"
+      placeholder="Adresse"
+      value={form.adresse}
+      onChange={handleChange}
+      className="luxury-input"
+    />
+
+    <input
+      name="cin"
+      placeholder="CIN"
+      value={form.cin}
+      onChange={handleChange}
+      className="luxury-input"
+    />
+
+  </div>
+
+  <button className="gold-btn mt-8">
+    Sauvegarder
+  </button>
+
+</form>
+)
 }

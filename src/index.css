@@ -14,3 +14,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+body{
+  margin:0;
+  padding:0;
+  font-family:'Inter',sans-serif;
+  background:#0b0b0b;
+}
+
+h1,h2,h3,h4{
+  font-family:'Playfair Display',serif;
+}
+
+.gold-text{
+  color:#d4af37;
+}
+
+.luxury-card{
+  background:rgba(255,255,255,0.03);
+  border:1px solid rgba(212,175,55,0.2);
+  backdrop-filter:blur(10px);
+  border-radius:24px;
+  box-shadow:
+    0 10px 40px rgba(0,0,0,0.4);
+}
+
+.luxury-input{
+  width:100%;
+  background:#111;
+  border:1px solid #2a2a2a;
+  color:white;
+  padding:14px;
+  border-radius:14px;
+  outline:none;
+  transition:0.3s;
+}
+
+.luxury-input:focus{
+  border-color:#d4af37;
+  box-shadow:0 0 15px rgba(212,175,55,0.3);
+}
+
+.gold-btn{
+  background:linear-gradient(
+    135deg,
+    #d4af37,
+    #f5d97b
+  );
+  color:black;
+  font-weight:600;
+  padding:14px 24px;
+  border-radius:14px;
+  transition:0.3s;
+}
+
+.gold-btn:hover{
+  transform:translateY(-2px);
+  box-shadow:
+    0 10px 25px rgba(212,175,55,0.35);
+}
+
+.dark-btn{
+  background:#171717;
+  border:1px solid #2d2d2d;
+  color:white;
+  padding:14px 24px;
+  border-radius:14px;
+  transition:0.3s;
+}
+
+.dark-btn:hover{
+  border-color:#d4af37;
+}
+
+.luxury-table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+.luxury-table thead{
+  background:#111;
+}
+
+.luxury-table th{
+  color:#d4af37;
+  padding:18px;
+  font-weight:600;
+}
+
+.luxury-table td{
+  padding:18px;
+  border-bottom:1px solid rgba(255,255,255,0.05);
+}
+
+.luxury-table tbody tr{
+  transition:0.3s;
+}
+
+.luxury-table tbody tr:hover{
+  background:rgba(255,255,255,0.03);
+}

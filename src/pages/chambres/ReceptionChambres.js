@@ -1,33 +1,11 @@
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState } from "react";
 import API from "../../services/api";
-import ChambreForm from "./ChambreForm";
 import DashboardLayout from "../../layouts/DashboardLayout";
 
-export default function Chambres() {
-
-  const role = localStorage.getItem("role");
-
-  const isAdmin = role === "ADMIN";
+export default function ReceptionChambres() {
 
   const [chambres, setChambres] = useState([]);
   const [search, setSearch] = useState("");
-  const [selectedChambre, setSelectedChambre] = useState(null);
-  const [showForm, setShowForm] = useState(false);
-
-  const fetchChambres = useCallback(async () => {
-
-    try {
-
-      const res = await API.get("/Chambre/all");
-
-      setChambres(res.data);
-
-    } catch (err) {
-
-      console.log(err);
-    }
-
-  }, []);
 
   useEffect(() => {
 
@@ -59,50 +37,6 @@ export default function Chambres() {
     fetch();
 
   }, [search]);
-
-  useEffect(() => {
-
-    fetchChambres();
-
-  }, [fetchChambres]);
-
-  const deleteChambre = async (id) => {
-
-    if (!window.confirm("Désactiver cette chambre ?")) {
-      return;
-    }
-
-    try {
-
-      await API.delete(`/Chambre/${id}`);
-
-      fetchChambres();
-
-    } catch (err) {
-
-      console.log(err);
-
-      alert("Erreur");
-    }
-  };
-
-  const reactivateChambre = async (id) => {
-
-    try {
-
-      await API.post(
-        `/Chambre/${id}/reactivate`
-      );
-
-      fetchChambres();
-
-    } catch (err) {
-
-      console.log(err);
-
-      alert("Erreur");
-    }
-  };
 
   return (
 
@@ -146,61 +80,30 @@ export default function Chambres() {
               </h1>
 
               <p className="text-gray-400 mt-3 text-lg">
-                Gestion élégante des chambres Dar Hafsa
+                Consultation des chambres disponibles
               </p>
 
             </div>
 
-            <div className="flex gap-4 items-center">
+            <div
+              className="
+                bg-yellow-400
+                text-black
+                px-8
+                py-5
+                rounded-3xl
+                shadow-xl
+                text-center
+              "
+            >
 
-              <div
-                className="
-                  bg-yellow-400
-                  text-black
-                  px-8
-                  py-5
-                  rounded-3xl
-                  shadow-xl
-                  text-center
-                "
-              >
+              <p className="text-4xl font-black">
+                {chambres.length}
+              </p>
 
-                <p className="text-4xl font-black">
-                  {chambres.length}
-                </p>
-
-                <p className="font-semibold">
-                  Chambres
-                </p>
-
-              </div>
-
-              {/* ADMIN ONLY */}
-              {isAdmin && (
-
-                <button
-                  onClick={() => {
-
-                    setSelectedChambre(null);
-
-                    setShowForm(true);
-                  }}
-                  className="
-                    bg-white
-                    hover:bg-gray-100
-                    text-black
-                    px-6
-                    py-5
-                    rounded-3xl
-                    font-bold
-                    shadow-xl
-                    transition
-                  "
-                >
-                  + Ajouter
-                </button>
-
-              )}
+              <p className="font-semibold">
+                Chambres
+              </p>
 
             </div>
 
@@ -429,150 +332,12 @@ export default function Chambres() {
 
               </div>
 
-              {/* ACTIONS ADMIN ONLY */}
-              {isAdmin && (
-
-                <div className="grid grid-cols-2 gap-3 mt-5">
-
-                  <button
-                    onClick={() => {
-
-                      setSelectedChambre(c);
-
-                      setShowForm(true);
-                    }}
-                    className="
-                      bg-black
-                      hover:bg-gray-900
-                      text-white
-                      py-3
-                      rounded-2xl
-                      font-semibold
-                      transition
-                    "
-                  >
-                    Modifier
-                  </button>
-
-                  {c.active ? (
-
-                    <button
-                      onClick={() =>
-                        deleteChambre(c.id)
-                      }
-                      className="
-                        bg-red-500
-                        hover:bg-red-600
-                        text-white
-                        py-3
-                        rounded-2xl
-                        font-semibold
-                        transition
-                      "
-                    >
-                      Désactiver
-                    </button>
-
-                  ) : (
-
-                    <button
-                      onClick={() =>
-                        reactivateChambre(c.id)
-                      }
-                      className="
-                        bg-green-600
-                        hover:bg-green-700
-                        text-white
-                        py-3
-                        rounded-2xl
-                        font-semibold
-                        transition
-                      "
-                    >
-                      Réactiver
-                    </button>
-
-                  )}
-
-                </div>
-
-              )}
-
             </div>
           ))}
 
         </div>
 
       </div>
-
-      {/* FORM ADMIN ONLY */}
-      {isAdmin && showForm && (
-
-        <div
-          className="
-            fixed
-            inset-0
-            bg-black/70
-            backdrop-blur-sm
-            flex
-            justify-center
-            items-center
-            z-50
-            p-6
-          "
-        >
-
-          <div
-            className="
-              w-full
-              max-w-5xl
-              max-h-[90vh]
-              overflow-y-auto
-            "
-          >
-
-            {/* CLOSE */}
-            <div className="flex justify-end mb-4">
-
-              <button
-                onClick={() => {
-
-                  setShowForm(false);
-
-                  setSelectedChambre(null);
-                }}
-                className="
-                  bg-white
-                  hover:bg-gray-100
-                  px-5
-                  py-3
-                  rounded-2xl
-                  font-bold
-                  shadow-lg
-                "
-              >
-                X
-              </button>
-
-            </div>
-
-            <ChambreForm
-              selectedChambre={selectedChambre}
-              onFinish={() => {
-
-                setShowForm(false);
-
-                setSelectedChambre(null);
-
-                fetchChambres();
-              }}
-            />
-
-          </div>
-
-        </div>
-
-      )}
 
     </DashboardLayout>
   );

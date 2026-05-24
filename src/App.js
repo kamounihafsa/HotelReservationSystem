@@ -15,6 +15,7 @@ import Users from "./pages/users/Users";
 import ChangePassword from "./pages/ChangePassword";
 import ClientDashboard from "./pages/dashboard/ClientDashboard";
 import ClientLogin from "./pages/ClientLogin";
+import ReceptionChambres from "./pages/chambres/ReceptionChambres";
 
 function App() {
 
@@ -60,14 +61,14 @@ function App() {
         />
 
         {/* CHAMBRES */}
-        <Route
-          path="/dashboard/chambres"
-          element={
-            <PrivateRoute roleRequired="RECEPTIONNISTE">
-              <Chambres />
-            </PrivateRoute>
-          }
-        />
+<Route
+  path="/dashboard/admin/chambres"
+  element={
+    <PrivateRoute roleRequired="ADMIN">
+      <Chambres />
+    </PrivateRoute>
+  }
+/>
 
         {/* RESERVATIONS TEMPORAIRE */}
         <Route
@@ -78,6 +79,14 @@ function App() {
             </PrivateRoute>
           }
         />
+        <Route
+  path="/dashboard/chambres"
+  element={
+    <PrivateRoute roleRequired="RECEPTIONNISTE">
+      <ReceptionChambres />
+    </PrivateRoute>
+  }
+/>
 
         {/* USERS */}
         

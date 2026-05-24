@@ -15,14 +15,12 @@ export default function ChambreForm({
     equipements: []
   });
 
-  // 🔥 ENUM
   const typeMap = {
     Simple: 0,
     Double: 1,
     Suite: 2
   };
 
-  // 🔥 LISTE
   const availableEquipements = [
     "WiFi",
     "TV",
@@ -32,7 +30,6 @@ export default function ChambreForm({
     "Mini Bar"
   ];
 
-  // 🔥 EDIT
   useEffect(() => {
 
     if (selectedChambre) {
@@ -57,7 +54,6 @@ export default function ChambreForm({
         description:
           selectedChambre.description || "",
 
-        // 🔥 IMPORTANT
         equipements:
           selectedChambre.equipements
             ? selectedChambre.equipements.map((e) =>
@@ -71,7 +67,6 @@ export default function ChambreForm({
 
   }, [selectedChambre]);
 
-  // 🔥 CHANGE
   const handleChange = (e) => {
 
     setForm({
@@ -80,7 +75,6 @@ export default function ChambreForm({
     });
   };
 
-  // 🔥 CHECKBOX
   const handleEquipementChange = (equipement) => {
 
     let updated = [...form.equipements];
@@ -102,7 +96,6 @@ export default function ChambreForm({
     });
   };
 
-  // 🔥 SAVE
   const handleSubmit = async (e) => {
 
     e.preventDefault();
@@ -126,7 +119,6 @@ export default function ChambreForm({
 
       let chambreId;
 
-      // 🔥 UPDATE
       if (form.id) {
 
         await API.put(
@@ -138,7 +130,6 @@ export default function ChambreForm({
 
       } else {
 
-        // 🔥 CREATE
         const res = await API.post(
           `/Chambre`,
           chambreToSend
@@ -147,7 +138,6 @@ export default function ChambreForm({
         chambreId = res.data.id;
       }
 
-      // 🔥 AJOUT EQUIPEMENTS
       if (form.equipements.length > 0) {
 
         for (const equipement of form.equipements) {
@@ -158,7 +148,6 @@ export default function ChambreForm({
         }
       }
 
-      // 🔥 RESET
       setForm({
         numero: "",
         type: "Simple",
@@ -185,31 +174,58 @@ export default function ChambreForm({
     <form
       onSubmit={handleSubmit}
       className="
-        bg-white
-        shadow-xl
-        rounded-2xl
-        p-6
-        mt-8
+        bg-[#111111]
+        border
+        border-yellow-500/10
+        rounded-[35px]
+        p-10
+        shadow-2xl
       "
     >
 
-      <h3 className="text-2xl font-bold mb-6">
+      <div className="mb-8">
 
-        {form.id
-          ? "Modifier Chambre"
-          : "Ajouter Chambre"}
+        <p
+          className="
+            uppercase
+            tracking-[5px]
+            text-yellow-400
+            text-sm
+            mb-3
+          "
+        >
+          Luxury Form
+        </p>
 
-      </h3>
+        <h2 className="text-4xl font-black text-white">
 
-      <div className="grid grid-cols-2 gap-4">
+          {form.id
+            ? "Modifier Chambre"
+            : "Ajouter Chambre"}
+
+        </h2>
+
+      </div>
+
+      <div className="grid md:grid-cols-2 gap-5">
 
         <input
           type="text"
           name="numero"
-          placeholder="Numéro"
+          placeholder="Numéro Chambre"
           value={form.numero}
           onChange={handleChange}
-          className="border p-3 rounded-lg"
+          className="
+            bg-black
+            border
+            border-gray-800
+            text-white
+            p-5
+            rounded-2xl
+            focus:outline-none
+            focus:ring-2
+            focus:ring-yellow-400
+          "
           required
         />
 
@@ -217,8 +233,19 @@ export default function ChambreForm({
           name="type"
           value={form.type}
           onChange={handleChange}
-          className="border p-3 rounded-lg"
+          className="
+            bg-black
+            border
+            border-gray-800
+            text-white
+            p-5
+            rounded-2xl
+            focus:outline-none
+            focus:ring-2
+            focus:ring-yellow-400
+          "
         >
+
           <option value="Simple">
             Simple
           </option>
@@ -230,6 +257,7 @@ export default function ChambreForm({
           <option value="Suite">
             Suite
           </option>
+
         </select>
 
         <input
@@ -237,7 +265,17 @@ export default function ChambreForm({
           name="etage"
           value={form.etage}
           onChange={handleChange}
-          className="border p-3 rounded-lg"
+          className="
+            bg-black
+            border
+            border-gray-800
+            text-white
+            p-5
+            rounded-2xl
+            focus:outline-none
+            focus:ring-2
+            focus:ring-yellow-400
+          "
         />
 
         <input
@@ -245,46 +283,71 @@ export default function ChambreForm({
           name="capacite"
           value={form.capacite}
           onChange={handleChange}
-          className="border p-3 rounded-lg"
+          className="
+            bg-black
+            border
+            border-gray-800
+            text-white
+            p-5
+            rounded-2xl
+            focus:outline-none
+            focus:ring-2
+            focus:ring-yellow-400
+          "
         />
 
       </div>
 
       <textarea
         name="description"
-        placeholder="Description"
+        placeholder="Description Chambre..."
         value={form.description}
         onChange={handleChange}
         className="
-          border
-          p-3
-          rounded-lg
           w-full
-          mt-4
+          mt-5
+          bg-black
+          border
+          border-gray-800
+          text-white
+          p-5
+          rounded-2xl
+          h-36
+          resize-none
+          focus:outline-none
+          focus:ring-2
+          focus:ring-yellow-400
         "
       />
 
-      {/* 🔥 EQUIPEMENTS */}
-      <div className="mt-6">
+      {/* EQUIPEMENTS */}
+      <div className="mt-8">
 
-        <h4 className="font-bold mb-3">
-          Equipements
-        </h4>
+        <h3 className="text-white text-xl font-bold mb-5">
+          Équipements
+        </h3>
 
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid md:grid-cols-3 gap-4">
 
           {availableEquipements.map((equipement) => (
 
             <label
               key={equipement}
-              className="
+              className={`
                 flex
                 items-center
-                gap-2
-                bg-gray-50
-                p-2
-                rounded-lg
-              "
+                gap-3
+                p-4
+                rounded-2xl
+                cursor-pointer
+                border
+                transition
+                ${
+                  form.equipements.includes(equipement)
+                    ? "bg-yellow-400 border-yellow-400 text-black"
+                    : "bg-black border-gray-800 text-white"
+                }
+              `}
             >
 
               <input
@@ -302,6 +365,7 @@ export default function ChambreForm({
               {equipement}
 
             </label>
+
           ))}
 
         </div>
@@ -311,17 +375,20 @@ export default function ChambreForm({
       <button
         type="submit"
         className="
-          bg-green-600
-          hover:bg-green-700
-          text-white
-          px-6
-          py-3
-          rounded-xl
-          mt-6
+          w-full
+          mt-10
+          bg-yellow-400
+          hover:bg-yellow-500
+          text-black
+          py-5
+          rounded-2xl
+          font-black
+          text-lg
           transition
+          shadow-xl
         "
       >
-        Save
+        Save Chambre
       </button>
 
     </form>

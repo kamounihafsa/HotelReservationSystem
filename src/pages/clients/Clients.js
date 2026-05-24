@@ -1,12 +1,15 @@
 import { useEffect, useState, useCallback } from "react";
 import API from "../../services/api";
 import ClientForm from "./ClientForm";
+import DashboardLayout from "../../layouts/DashboardLayout";
 
 export default function Clients() {
 
   const [clients, setClients] = useState([]);
   const [search, setSearch] = useState("");
   const [selectedClient, setSelectedClient] = useState(null);
+
+  const [showForm, setShowForm] = useState(false);
 
   // 🔥 HISTORY
   const [reservations, setReservations] = useState([]);
@@ -21,27 +24,37 @@ export default function Clients() {
       let res;
 
       if (search.trim() === "") {
+
         res = await API.get("/Client");
+
       } else {
-        res = await API.get(`/Client/search?term=${search}`);
+
+        res = await API.get(
+          `/Client/search?term=${search}`
+        );
       }
 
       setClients(res.data);
 
     } catch (err) {
+
       console.log(err);
     }
 
   }, [search]);
 
   useEffect(() => {
+
     fetchClients();
+
   }, [fetchClients]);
 
   // 🔥 DISABLE CLIENT
   const deleteClient = async (id) => {
 
-    if (!window.confirm("Désactiver ce client ?")) return;
+    if (!window.confirm("Désactiver ce client ?")) {
+      return;
+    }
 
     try {
 
@@ -50,6 +63,7 @@ export default function Clients() {
       fetchClients();
 
     } catch {
+
       alert("Erreur");
     }
   };
@@ -59,21 +73,30 @@ export default function Clients() {
 
     try {
 
-      await API.post(`/Client/${id}/reactivate`);
+      await API.post(
+        `/Client/${id}/reactivate`
+      );
 
       fetchClients();
 
     } catch {
+
       alert("Erreur réactivation");
     }
   };
 
   // 🔥 SHOW HISTORY
-  const showReservations = async (id, nom, prenom) => {
+  const showReservations = async (
+    id,
+    nom,
+    prenom
+  ) => {
 
     try {
 
-      const res = await API.get(`/Client/${id}/reservations`);
+      const res = await API.get(
+        `/Client/${id}/reservations`
+      );
 
       setReservations(res.data);
 
@@ -91,268 +114,603 @@ export default function Clients() {
 
   return (
 
-    <div className="p-6">
+    <DashboardLayout>
 
-      {/* TITLE */}
-      <div className="flex justify-between items-center mb-6">
+      <div className="min-h-screen bg-[#0b0b0b] text-white p-6">
 
-        <h2 className="text-4xl font-bold text-gray-800">
-          Gestion Clients
-        </h2>
+        {/* HEADER */}
+        <div
+          className="
+            flex
+            justify-between
+            items-center
+            mb-10
+            flex-wrap
+            gap-5
+          "
+        >
 
-      </div>
+          <div>
 
-      {/* SEARCH */}
-      <div className="mb-6">
+            <h1 className="text-5xl gold-text">
+              Clients
+            </h1>
 
-        <input
-          type="text"
-          placeholder="Rechercher un client..."
-          className="w-full md:w-1/2 border border-gray-300 rounded-xl p-3 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
+            <p className="text-gray-400 mt-2">
+              Gestion des clients premium
+            </p>
 
-      </div>
+          </div>
 
-      {/* TABLE CLIENTS */}
-      <div className="overflow-x-auto bg-white rounded-2xl shadow-lg">
+{/* RIGHT ACTIONS */}
+<div className="flex items-center gap-5">
 
-        <table className="w-full">
+  {/* TOTAL CLIENTS */}
+  <div
+    className="
+      bg-[#111]
+      border
+      border-yellow-500/20
+      rounded-3xl
+      px-8
+      py-4
+      text-center
+      min-w-[140px]
+      shadow-xl
+    "
+  >
 
-          <thead className="bg-gray-900 text-white">
+    <h2 className="text-4xl font-bold text-yellow-400">
+      {clients.length}
+    </h2>
 
-            <tr>
-              <th className="p-4">Nom</th>
-              <th className="p-4">Prénom</th>
-              <th className="p-4">CIN</th>
-              <th className="p-4">Téléphone</th>
-              <th className="p-4">Email</th>
-              <th className="p-4">Statut</th>
-              <th className="p-4">Actions</th>
-            </tr>
+    <p className="text-gray-400 mt-1">
+      Clients
+    </p>
 
-          </thead>
+  </div>
 
-          <tbody>
+          {/* ADD BUTTON */}
+          <button
+            onClick={() => {
 
-            {clients.map((c) => (
+              setSelectedClient(null);
 
-              <tr
-                key={c.id}
-                className="border-b hover:bg-gray-50 transition"
-              >
+              setShowForm(true);
+            }}
+            className="
+              bg-yellow-400
+              hover:bg-yellow-300
+              text-black
+              px-7
+              py-4
+              rounded-2xl
+              font-bold
+              shadow-xl
+              transition
+            "
+          >
+            + Ajouter
+          </button>
 
-                <td className="p-4 text-center">
-                  {c.nom}
-                </td>
+        </div>
 
-                <td className="p-4 text-center">
-                  {c.prenom}
-                </td>
+        </div>
 
-                <td className="p-4 text-center">
-                  {c.numeroIdentite}
-                </td>
+        {/* SEARCH */}
+        <div className="mb-8">
 
-                <td className="p-4 text-center">
-                  {c.telephone}
-                </td>
+          <input
+            type="text"
+            placeholder="Rechercher un client..."
+            className="
+              w-full
+              max-w-xl
+              bg-[#111]
+              border
+              border-yellow-500/10
+              rounded-2xl
+              px-5
+              py-4
+              text-white
+              outline-none
+              focus:ring-2
+              focus:ring-yellow-400
+            "
+            value={search}
+            onChange={(e) =>
+              setSearch(e.target.value)
+            }
+          />
 
-                <td className="p-4 text-center">
-                  {c.email}
-                </td>
+        </div>
 
-                {/* STATUS */}
-                <td className="p-4 text-center">
+        {/* TABLE */}
+        <div
+          className="
+            bg-[#111]
+            border
+            border-yellow-500/10
+            rounded-3xl
+            overflow-hidden
+            shadow-2xl
+          "
+        >
 
-                  {c.actif ? (
+          <table
+            className="
+              w-full
+              table-fixed
+              text-xs
+              xl:text-sm
+            "
+          >
 
-                    <span className="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-semibold">
-                      Actif
-                    </span>
+            <thead
+              className="
+                bg-black
+                text-yellow-400
+              "
+            >
 
-                  ) : (
+              <tr>
 
-                    <span className="bg-red-100 text-red-700 px-3 py-1 rounded-full text-sm font-semibold">
-                      Inactif
-                    </span>
+                <th className="p-4 whitespace-nowrap">
+                  Nom
+                </th>
 
-                  )}
+                <th className="p-4 whitespace-nowrap">
+                  Prénom
+                </th>
 
-                </td>
+                <th className="p-4 whitespace-nowrap">
+                  CIN
+                </th>
 
-                {/* ACTIONS */}
-                <td className="p-4">
+                <th className="p-4 whitespace-nowrap">
+                  Téléphone
+                </th>
 
-                  <div className="flex justify-center gap-2 flex-wrap">
+                <th className="p-4 whitespace-nowrap">
+                  Email
+                </th>
 
-                    <button
-                      onClick={() => setSelectedClient(c)}
-                      className="bg-yellow-400 hover:bg-yellow-500 text-white px-4 py-2 rounded-lg transition shadow"
-                    >
-                      Edit
-                    </button>
+                <th className="p-4 whitespace-nowrap">
+                  Statut
+                </th>
 
-                    <button
-                      onClick={() =>
-                        showReservations(c.id, c.nom, c.prenom)
-                      }
-                      className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition shadow"
-                    >
-                      History
-                    </button>
-
-                    {c.actif ? (
-
-                      <button
-                        onClick={() => deleteClient(c.id)}
-                        className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg transition shadow"
-                      >
-                        Désactiver
-                      </button>
-
-                    ) : (
-
-                      <button
-                        onClick={() => reactivateClient(c.id)}
-                        className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition shadow"
-                      >
-                        Réactiver
-                      </button>
-
-                    )}
-
-                  </div>
-
-                </td>
+                <th className="p-4 whitespace-nowrap">
+                  Actions
+                </th>
 
               </tr>
 
-            ))}
+            </thead>
 
-          </tbody>
+            <tbody>
 
-        </table>
+              {clients.map((c) => (
 
-      </div>
+                <tr
+                  key={c.id}
+                  className="
+                    border-b
+                    border-gray-800
+                    hover:bg-[#1a1a1a]
+                    transition
+                  "
+                >
 
-      {/* FORM */}
-      <div className="mt-8">
+                  <td
+                    className="
+                      p-4
+                      text-center
+                      whitespace-nowrap
+                    "
+                  >
+                    {c.nom}
+                  </td>
 
-        <ClientForm
-          selectedClient={selectedClient}
-          onFinish={() => {
-            setSelectedClient(null);
-            fetchClients();
-          }}
-        />
+                  <td
+                    className="
+                      p-4
+                      text-center
+                      whitespace-nowrap
+                    "
+                  >
+                    {c.prenom}
+                  </td>
 
-      </div>
+                  <td
+                    className="
+                      p-4
+                      text-center
+                      whitespace-nowrap
+                    "
+                  >
+                    {c.numeroIdentite}
+                  </td>
 
-      {/* 🔥 MODAL HISTORY */}
-      {showHistory && (
+                  <td
+                    className="
+                      p-4
+                      text-center
+                      whitespace-nowrap
+                    "
+                  >
+                    {c.telephone}
+                  </td>
 
-        <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50">
+                  <td
+                    className="
+                      p-4
+                      text-center
+                      whitespace-nowrap
+                    "
+                  >
+                    {c.email}
+                  </td>
 
-          {/* MODAL */}
-          <div className="bg-white w-[95%] md:w-[80%] lg:w-[70%] rounded-3xl shadow-2xl relative animate-fadeIn">
+                  <td
+                    className="
+                      p-4
+                      text-center
+                      whitespace-nowrap
+                    "
+                  >
 
-            {/* HEADER */}
-            <div className="flex justify-between items-center border-b p-6">
+                    {c.actif ? (
 
-              <div>
+                      <span className="text-green-400 font-semibold">
+                        Actif
+                      </span>
 
-                <h3 className="text-3xl font-bold text-gray-800">
-                  Historique
-                </h3>
+                    ) : (
 
-                <p className="text-gray-500 mt-1">
-                  {clientName}
-                </p>
+                      <span className="text-red-400 font-semibold">
+                        Inactif
+                      </span>
+
+                    )}
+
+                  </td>
+
+                  {/* ACTIONS */}
+                  <td className="p-4">
+
+                    <div
+                      className="
+                        flex
+                        justify-center
+                        items-center
+                        gap-2
+                      "
+                    >
+
+                      {/* MODIFIER */}
+                      <button
+                        onClick={() => {
+
+                          setSelectedClient(c);
+
+                          setShowForm(true);
+                        }}
+                        className="
+                          w-10
+                          h-10
+                          rounded-xl
+                          bg-yellow-400
+                          hover:bg-yellow-300
+                          flex
+                          items-center
+                          justify-center
+                          text-lg
+                          transition
+                          shadow-lg
+                        "
+                        title="Modifier"
+                      >
+                        ✏️
+                      </button>
+
+                      {/* HISTORIQUE */}
+                      <button
+                        onClick={() =>
+                          showReservations(
+                            c.id,
+                            c.nom,
+                            c.prenom
+                          )
+                        }
+                        className="
+                          w-10
+                          h-10
+                          rounded-xl
+                          bg-gray-800
+                          hover:bg-gray-700
+                          flex
+                          items-center
+                          justify-center
+                          text-lg
+                          transition
+                        "
+                        title="Historique"
+                      >
+                        📜
+                      </button>
+
+                      {/* DESACTIVER */}
+                      {c.actif ? (
+
+                        <button
+                          onClick={() =>
+                            deleteClient(c.id)
+                          }
+                          className="
+                            w-10
+                            h-10
+                            rounded-xl
+                            bg-red-600
+                            hover:bg-red-700
+                            flex
+                            items-center
+                            justify-center
+                            text-lg
+                            transition
+                          "
+                          title="Désactiver"
+                        >
+                          🚫
+                        </button>
+
+                      ) : (
+
+                        <button
+                          onClick={() =>
+                            reactivateClient(c.id)
+                          }
+                          className="
+                            w-10
+                            h-10
+                            rounded-xl
+                            bg-green-600
+                            hover:bg-green-700
+                            flex
+                            items-center
+                            justify-center
+                            text-lg
+                            transition
+                          "
+                          title="Réactiver"
+                        >
+                          ✅
+                        </button>
+
+                      )}
+
+                    </div>
+
+                  </td>
+
+                </tr>
+
+              ))}
+
+            </tbody>
+
+          </table>
+
+        </div>
+
+        {/* FORM MODAL */}
+        {showForm && (
+
+          <div
+            className="
+              fixed
+              inset-0
+              bg-black/70
+              backdrop-blur-sm
+              flex
+              justify-center
+              items-center
+              z-50
+              p-6
+            "
+          >
+
+            <div
+              className="
+                w-full
+                max-w-4xl
+              "
+            >
+
+              {/* CLOSE */}
+              <div className="flex justify-end mb-4">
+
+                <button
+                  onClick={() => {
+
+                    setShowForm(false);
+
+                    setSelectedClient(null);
+                  }}
+                  className="
+                    bg-white
+                    hover:bg-gray-100
+                    text-black
+                    px-5
+                    py-3
+                    rounded-2xl
+                    font-bold
+                  "
+                >
+                  ✕
+                </button>
 
               </div>
 
-              {/* CLOSE */}
-              <button
-                onClick={() => setShowHistory(false)}
-                className="text-gray-500 hover:text-red-500 text-3xl transition"
-              >
-                ✕
-              </button>
+              <ClientForm
+                selectedClient={selectedClient}
+                onFinish={() => {
+
+                  setShowForm(false);
+
+                  setSelectedClient(null);
+
+                  fetchClients();
+                }}
+              />
 
             </div>
 
-            {/* BODY */}
-            <div className="p-6 max-h-[500px] overflow-y-auto">
+          </div>
 
-              {reservations.length === 0 ? (
+        )}
 
-                <div className="flex flex-col items-center justify-center py-16">
+        {/* HISTORY MODAL */}
+        {showHistory && (
 
-                  <div className="text-7xl mb-4">
-                    📭
-                  </div>
+          <div
+            className="
+              fixed
+              inset-0
+              bg-black/70
+              flex
+              items-center
+              justify-center
+              z-50
+            "
+          >
 
-                  <h4 className="text-2xl font-bold text-gray-700 mb-2">
-                    Aucun historique trouvé
-                  </h4>
+            <div
+              className="
+                bg-[#111]
+                border
+                border-yellow-500/20
+                w-[95%]
+                lg:w-[70%]
+                rounded-3xl
+                shadow-2xl
+              "
+            >
 
-                  <p className="text-gray-500 text-center">
-                    Ce client n'a effectué aucune réservation.
+              {/* HEADER */}
+              <div
+                className="
+                  flex
+                  justify-between
+                  items-center
+                  border-b
+                  border-gray-800
+                  p-6
+                "
+              >
+
+                <div>
+
+                  <h3 className="text-3xl gold-text">
+                    Historique
+                  </h3>
+
+                  <p className="text-gray-400 mt-1">
+                    {clientName}
                   </p>
 
                 </div>
 
-              ) : (
+                <button
+                  onClick={() =>
+                    setShowHistory(false)
+                  }
+                  className="
+                    text-3xl
+                    text-gray-400
+                    hover:text-red-500
+                  "
+                >
+                  ✕
+                </button>
 
-                <table className="w-full overflow-hidden rounded-xl">
+              </div>
 
-                  <thead className="bg-gray-900 text-white sticky top-0">
+              {/* BODY */}
+              <div
+                className="
+                  p-6
+                  max-h-[500px]
+                  overflow-y-auto
+                "
+              >
 
-                    <tr>
-                      <th className="p-4">ID</th>
-                      <th className="p-4">Chambre</th>
-                      <th className="p-4">Arrivée</th>
-                      <th className="p-4">Départ</th>
-                      <th className="p-4">Personnes</th>
-                      <th className="p-4">Statut</th>
-                    </tr>
+                {reservations.length === 0 ? (
 
-                  </thead>
+                  <div className="text-center py-16">
 
-                  <tbody>
+                    <div className="text-6xl mb-4">
+                      📭
+                    </div>
 
-                    {reservations.map((r) => (
+                    <h4 className="text-2xl font-bold mb-2">
+                      Aucun historique
+                    </h4>
 
-                      <tr
-                        key={r.id}
-                        className="border-b hover:bg-gray-50 transition text-center"
-                      >
+                  </div>
 
-                        <td className="p-4">
-                          {r.id}
-                        </td>
+                ) : (
 
-                        <td className="p-4">
-                          {r.chambre?.numero}
-                        </td>
+                  <table className="w-full text-sm">
 
-                        <td className="p-4">
-                          {r.dateArrivee?.substring(0, 10)}
-                        </td>
+                    <thead>
 
-                        <td className="p-4">
-                          {r.dateDepart?.substring(0, 10)}
-                        </td>
+                      <tr className="text-yellow-400">
 
-                        <td className="p-4">
-                          {r.nombrePersonnes}
-                        </td>
+                        <th className="p-3">
+                          Chambre
+                        </th>
 
-                        <td className="p-4">
+                        <th className="p-3">
+                          Arrivée
+                        </th>
 
-                          <span className="px-3 py-1 rounded-full text-sm font-semibold bg-blue-100 text-blue-700">
+                        <th className="p-3">
+                          Départ
+                        </th>
+
+                        <th className="p-3">
+                          Statut
+                        </th>
+
+                      </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                      {reservations.map((r) => (
+
+                        <tr
+                          key={r.id}
+                          className="
+                            border-b
+                            border-gray-800
+                          "
+                        >
+
+                          <td className="p-4 text-center">
+                            {r.chambre?.numero}
+                          </td>
+
+                          <td className="p-4 text-center">
+                            {r.dateArrivee?.substring(0, 10)}
+                          </td>
+
+                          <td className="p-4 text-center">
+                            {r.dateDepart?.substring(0, 10)}
+                          </td>
+
+                          <td className="p-4 text-center">
 
                             {{
                               0: "En attente",
@@ -362,28 +720,28 @@ export default function Clients() {
                               4: "CheckOut"
                             }[r.statut]}
 
-                          </span>
+                          </td>
 
-                        </td>
+                        </tr>
 
-                      </tr>
+                      ))}
 
-                    ))}
+                    </tbody>
 
-                  </tbody>
+                  </table>
 
-                </table>
+                )}
 
-              )}
+              </div>
 
             </div>
 
           </div>
 
-        </div>
+        )}
 
-      )}
+      </div>
 
-    </div>
+    </DashboardLayout>
   );
 }
